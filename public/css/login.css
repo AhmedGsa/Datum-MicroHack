@@ -1,0 +1,96 @@
+main {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	gap: 150px;
+}
+
+main .left {
+	flex-basis: 50%;
+	position: relative;
+}
+
+main .right {
+	flex-basis: 40%;
+}
+
+main .right form {
+	display: flex;
+	flex-direction: column;
+	gap: 20px;
+	width: 75%;
+}
+
+main .right form input {
+	padding: 25px 15px;
+	background: #efefef;
+	border-radius: 16px;
+}
+
+main .right form input[type="submit"] {
+	background-color: #06c69a;
+	color: white;
+	font-weight: 500;
+	font-size: 20px;
+	transition: 0.3s;
+	cursor: pointer;
+	border: 1px solid #06c69a;
+}
+
+main .right form input[type="submit"]:hover {
+	background-color: white;
+	color: #06c69a;
+	font-weight: 500;
+	font-size: 20px;
+}
+
+main .right form .options {
+	display: flex;
+	justify-content: space-between;
+	padding: 0 10px;
+}
+
+main .right form .options .remember {
+	display: flex;
+	gap: 10px;
+}
+
+main .right form .options a {
+	color: black;
+}
+
+main .right form .options input[type="checkbox"] {
+	scale: 1.3;
+}
+
+main .right form .hr {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	gap: 10px;
+	padding: 0 10px;
+}
+
+main .right form .hr span {
+	color: black;
+	display: block;
+	position: relative;
+}
+
+main .right form .social {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+main .right form .social a {
+	background-color: #efefef;
+	background: #efefef;
+	box-shadow: inset 0px 1px 15px rgba(149, 143, 143, 0.06);
+	border-radius: 16px;
+	padding: 15px 40px;
+}
+.shadow {
+	top: 100px;
+	left: 100px;
+}

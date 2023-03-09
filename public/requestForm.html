@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="./css/requestForm.css" />
+		<link rel="stylesheet" href="./css/components.css" />
+
+		<title>Document</title>
+	</head>
+	<body>
+		<!-- Start the Header  -->
+		<header>
+			<div class="container">
+				<div class="logo">
+					<object data="./assets/logo.svg" type=""></object>
+				</div>
+				<ul class="links"></ul>
+				<div class="login">
+					<a href="/login" class="fulled_button">login</a>
+				</div>
+			</div>
+		</header>
+		<!-- End the Header -->
+		<!-- Start the form-->
+		<div class="container">
+			<form class="request">
+				<h3>Request data that are not available now!</h3>
+				<div class="row">
+					<div class="input_box">
+						<label for="FullName">Full name</label>
+						<input placeholder="Fill your Full name" id="FullName" type="text" />
+					</div>
+					<div class="input_box">
+						<label for="DataTitle">Data Title</label>
+						<input placeholder="Suggest a title to the data that you want to request" id="DataTitle" type="text" />
+					</div>
+				</div>
+				<div class="row">
+					<div class="input_box">
+						<label for="companyName">Company Name</label>
+						<input placeholder="Your company name is very important to the seller" id="companyName" type="text" />
+					</div>
+					<div class="input_box">
+						<label for="purpose">The purpose Behind the Data</label>
+						<input placeholder="Please enter your email" id="purpose" />
+					</div>
+				</div>
+				<div class="row">
+					<div class="input_box">
+						<label for="description">Description</label>
+						<textarea name="" id="description" placeholder="Describe your request so sellers can meet your need..." rows=""></textarea>
+					</div>
+				</div>
+				<div class="row">
+					<div class="input_box">
+						<label for="phone">Phone number</label>
+						<input placeholder="Your company name is very important to the seller" id="phone" type="text" />
+					</div>
+					<div class="input_box">
+						<label for="Email">Email</label>
+						<input placeholder="Please enter your email" id="Email" type="email" />
+					</div>
+				</div>
+				<h5 class="note">*Your request will be displayed to sellers for them to know what to provide on the market</h5>
+				<div class="button-container">
+					<div class="button_container">
+						<button class="fulled_button">Submit</button>
+					</div>
+				</div>
+			</form>
+		</div>
+		<script src="./js//home.js" type="module"></script>
+		<script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+		<script src="./js/request-data.js"></script>
+	</body>
+</html>

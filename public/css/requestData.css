@@ -1,0 +1,98 @@
+:root {
+	--main-green: #06c69a;
+	--footer-back: #1e214e;
+	--gray: #f4f5f9;
+}
+body {
+	background-color: var(--gray);
+	overflow-x: hidden;
+}
+.users .container {
+	display: flex;
+	flex-direction: column;
+	gap: 20px;
+	justify-content: center;
+	align-items: center;
+}
+.users .container .user {
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	gap: 5%;
+	background-color: white;
+	border-radius: 20px;
+	padding: 30px 20px;
+}
+.users .container .user div.description {
+	padding: 0 20px;
+	max-width: 450px;
+	border-right: solid 1px rgb(147, 144, 144);
+	border-left: solid 1px rgb(147, 144, 144);
+}
+.users .container .user > div {
+	flex: 1;
+}
+.users .container .user div.description h6 {
+	font-weight: 500;
+	font-size: 20px;
+	line-height: 20px;
+}
+.users .container .user div.description p {
+	font-weight: 300;
+	font-size: 16px;
+	color: rgb(147, 144, 144);
+	line-height: 23px;
+}
+.user-info {
+	display: flex;
+	gap: 20px;
+}
+.user-info img {
+	width: 80px;
+	height: 80px;
+}
+.user .contact h6 {
+	font-weight: 500;
+	font-size: 20px;
+}
+.user .contact p {
+	color: rgb(147, 144, 144);
+}
+.user-info .user-content {
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+}
+.user-info .job {
+	font-weight: 500;
+	font-size: 28px;
+	line-height: 0px;
+	margin-bottom: 10px;
+}
+.user-info .name {
+	margin-left: 10px;
+	color: rgb(147, 144, 144);
+}
+.user-info .para-fetcher {
+	font-weight: 300;
+	font-size: 13.8162px;
+	color: #353535;
+}
+.user-info .fetcher {
+	font-size: 13.8162px;
+	color: black;
+	font-weight: 600;
+}
+.user-info .reason {
+	font-weight: 300;
+	font-size: 13.8162px;
+	color: #353535;
+}
+.first {
+	top: 450px;
+}
+.second {
+	top: 50px;
+	left: 1000px;
+}

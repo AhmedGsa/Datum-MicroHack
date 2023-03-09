@@ -1,0 +1,50 @@
+:root {
+	--main-green: #06c69a;
+	--footer-back: #1e214e;
+}
+.picture {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 100px;
+}
+.picture .picture_box {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 20px;
+	width: 280px;
+	border-radius: 20px;
+	height: 180px;
+	border: solid 2px var(--main-green);
+}
+.picture .picture_box .content {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	gap: 10px;
+}
+.picture .picture_box .content p {
+	font-weight: 500;
+	font-size: 18px;
+	color: #817b7b;
+}
+.picture .text h4 {
+	font-size: 20px;
+	line-height: 20px;
+	font-weight: 200;
+	color: #1e214e;
+}
+.picture .text p {
+	font-weight: 300;
+	font-size: 16px;
+	line-height: 20px;
+	color: #817b7b;
+    margin-top: 10px;
+}
+
+input[type="file"] {
+	display: none;
+}

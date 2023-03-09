@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- css files import section -->
+    <link rel="stylesheet" href="./css//normlize.css" />
+    <link rel="stylesheet" href="./css//components.css" />
+    <link rel="stylesheet" href="./css/login.css">
+    <!-- google fonts link -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet" />
+    <title>Register</title>
+</head>
+
+<body>
+    <!-- start the header section -->
+    <header>
+        <div class="container">
+            <div class="logo">
+                <object data="./assets/logo.svg" type=""></object>
+            </div>
+            <ul class="links"></ul>
+            <div class="login">
+                <a href="/login" class="fulled_button">LOGIN</a>
+            </div>
+        </div>
+    </header>
+    <!-- end the header section -->
+    <!-- start the main section -->
+    <main>
+        <div class="left">
+            <object data="./assets/Palm recognition.svg"></object>
+        </div>
+        <div class="right">
+            <form action="/api/v1/auth/register" method="post">
+                <input type="text" placeholder="Enter your full name" name="name" id="name">
+                <input type="email" placeholder="Enter your email adress" name="email" id="email">
+                <input type="password" placeholder="Password" name="password" id="password">
+                <div class="options">
+                    <div class="remember">
+                        <input type="checkbox" id="remember" name="remember">
+                        <label for="remember">Remember me</label>
+                    </div>
+                    <a href="#">Forgot password?</a>
+                </div>
+                <input type="submit" value="REGISTER">
+                <div class="hr">
+                    <hr>
+                    <span> Or continue with </span>
+                    <hr>
+                </div>
+                <div class="social">
+                    <a href="#" class="facebook">
+                        <object data="./assets/Vectorfacebook.svg"></object>
+                    </a>
+                    <a href="#" class="apple">
+                        <object data="./assets/Vectorapple.svg"></object>
+                    </a>
+                    <a href="#" class="google">
+                        <object data="./assets/Vector.svg"></object>
+                    </a>
+                </div>
+            </form>
+        </div>
+    </main>
+    <script src="./js//home.js" type="module"></script>
+    <script src="https://cdn.jsdelivr.net/npm/axios@1.1.2/dist/axios.min.js"></script>
+    <script src="./js/register.js"></script>
+</body>
+
+</html>

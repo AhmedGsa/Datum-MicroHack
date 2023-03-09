@@ -1,0 +1,70 @@
+:root {
+	--main-green: #06c69a;
+	--footer-back: #1e214e;
+}
+form {
+	width: 100%;
+	border: solid 3px var(--main-green);
+	border-radius: 20px;
+	padding: 100px 60px;
+}
+form h3 {
+	margin: 40px 0px;
+	font-weight: 700;
+	font-size: 36px;
+	line-height: 30px;
+	color: #1e214e;
+}
+.row:not(--lasts-chile) {
+	margin-bottom: 20px;
+}
+
+.row {
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	gap: 60px;
+}
+.row .input_box {
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+	flex: 1;
+}
+.row .input_box input,
+.row .input_box textarea {
+	border: solid 2px var(--main-green);
+	width: 100%;
+	padding: 15px;
+	color: rgb(108, 104, 104);
+	border-radius: 10px;
+}
+
+.row .input_box {
+	font-weight: 500;
+	font-size: 18px;
+	line-height: 15px;
+	color: #1e214e;
+}
+
+.note {
+	font-weight: 500;
+	font-size: 20px;
+	line-height: 30px;
+	text-align: center;
+	color: #817b7b;
+	margin-top: 40px;
+}
+.button_container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+}
+.button_container button {
+	margin-top: 100px;
+	border-radius: 10px;
+	padding: 20px;
+	width: 30%;
+}

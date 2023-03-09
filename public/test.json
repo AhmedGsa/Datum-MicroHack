@@ -1,0 +1,27 @@
+[
+	{
+		"link": "Home",
+		"url": "/",
+		"id": "1"
+	},
+	{
+		"link": "About",
+		"url": "/#about",
+		"id": "1"
+	},
+	{
+		"link": "Marketplace",
+		"url": "/marketplace",
+		"id": "2"
+	},
+	{
+		"link": "Requested Data",
+		"url": "/requested-data",
+		"id": "3"
+	},
+	{
+		"link": "Contact us",
+		"url": "/#contact",
+		"id": "4"
+	}
+]

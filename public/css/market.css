@@ -1,0 +1,68 @@
+:root {
+	--main-green: #06c69a;
+	--footer-back: #1e214e;
+	--gray: #f4f5f9;
+}
+body {
+	background-color: var(--gray);
+	overflow-x: hidden;
+}
+
+.data .container {
+	z-index: 100;
+	padding: 20px 5px;
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(550px, 1fr));
+	gap: 40px;
+	position: relative;
+}
+.data .container .datum {
+	position: relative;
+	z-index: 100;
+	background-color: white;
+	padding: 10px;
+	border-radius: 20px;
+	display: flex;
+	gap: 20px;
+	align-items: center;
+}
+.data .container .datum .text {
+	display: flex;
+	flex-direction: column;
+	gap: 20px;
+	width: 100%;
+	font-weight: 300;
+	font-size: 15px;
+	line-height: 20px;
+}
+.data .container .datum img {
+	width: 150px;
+	height: 150px;
+}
+.data .container .datum .title {
+	font-weight: 400;
+	font-size: 20px;
+	font-weight: 400;
+	line-height: 20px;
+}
+.desc {
+	min-width: 100%;
+	border-top: solid 2px #e2e2e2;
+	padding-top: 20px;
+	position: relative;
+}
+.provider {
+	font-weight: 600;
+}
+.prov {
+	font-size: 15px;
+	line-height: 20px;
+}
+.first {
+	top: 50px;
+	left: -600px;
+}
+.second {
+	top: 250px;
+	left: 1200px;
+}

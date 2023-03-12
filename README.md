@@ -1,4 +1,4 @@
-# Micro-Hac-Hackathone
+# Datum-MicroHack
 
 This is our solution for Micro Hack Hackathone, developed by ThunderBolts Team.
 
